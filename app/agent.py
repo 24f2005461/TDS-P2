@@ -12,6 +12,7 @@ from app.tools import registry
 
 AGENT_SYSTEM_PROMPT = """You are the Phase 6 quiz-solving agent for the TDS Project 2 system.
 You must analyze the quiz question, reason step-by-step, and decide which tool to call next.
+DO NOT attempt to submit answers or call submission URLs - that is handled by the orchestrator. Your job is only to solve the quiz and return the answer.
 Whenever you respond you MUST emit compact JSON only (no prose) matching this schema:
 {"thought":"string","action":"tool_name|final","input":{"arg":"value", ...}}
 Rules:
