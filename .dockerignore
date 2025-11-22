@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.coverage
+.tox/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+docs/
+*.txt
+!requirements.txt
+
+# Workspace and logs
+workspace/
+demo_workspace/
+*.log
+
+# Environment files (should be set via Render environment variables)
+.env
+.env.local
+.env.example
+
+# Test files
+tests/
+scripts/test_*.py
+scripts/run_test_server.py
+scripts/check_env.py
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Mac
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Playwright browsers (will be installed in container)
+.cache/
+ms-playwright/
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
